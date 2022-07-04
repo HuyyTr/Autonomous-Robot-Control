@@ -1,0 +1,7 @@
+Huong dan chay project build map va slam cho ros noetic
+
+1. Trong Terminal 1 chay roslaunch turtlebot3_gazebo turtlebot3_map.launch
+2. Trong Terminal 2 chay roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
+3. Trong Terminal 3 chay roslaunch turtlebot3_gazebo turtlebot3_simulation.launch
+
+SLAM.png : Anh Robot dang xay dung ban do va mapping
